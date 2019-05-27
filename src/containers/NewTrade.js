@@ -295,6 +295,7 @@ export default class NewTrade extends Component {
                     onChange={this.handleChange}
                     value={notes || ''}
                     as="textarea"
+                    size="sm"
                   />
                 </InputGroup>
               </Form.Group>
