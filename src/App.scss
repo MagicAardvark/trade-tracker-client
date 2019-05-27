@@ -1,0 +1,13 @@
+.App {
+  .navbar-expand .navbar-collapse {
+    flex-flow:row-reverse;
+  }
+
+  .navbar.navbar-expanded {
+    padding-left: 0;
+  }
+}
+
+.App .navbar-brand {
+  font-weight: bold;
+}
