@@ -23,7 +23,7 @@
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "aws s3 sync build/ s3://trade-tracker-app --delete",
-    "postdeploy": "aws cloudfront create-invalidation --distribution-id E39YN3JZN37ERG --paths '/*'"
+    "postdeploy": "aws cloudfront create-invalidation --distribution-id E2HZV4I0Y3BAUI --paths '/*'"
   },
   "eslintConfig": {
     "extends": "react-app"
