@@ -55,7 +55,6 @@ export default class Home extends Component {
           {
             trades.map(
               (trade) => {
-                console.log(trade)
                 const date = new Date(trade.tradeDate).toDateString();
                 return (
 
